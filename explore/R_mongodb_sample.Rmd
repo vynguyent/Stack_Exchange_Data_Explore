@@ -1,0 +1,26 @@
+---
+title: "R_Sample_Code"
+output: html_document
+---
+
+```{r}
+library(mongolite)
+client <- mongo(collection="Posts", db="3dprinting_stackexchange_com", url="mongodb://yida:yida@localhost:27272/admin")
+client$find('{"@PostTypeId": "1"}')
+```
+
+
+```{r}
+library(sparklyr)
+library(dplyr)
+
+
+Sys.setenv(SPARK_HOME="C:\\Users\\yyin4\\AppData\\Local\\rstudio\\spark\\Cache\\spark-1.6.2-bin-hadoop2.6")
+Sys.getenv("SPARK_HOME")
+sc = spark_connect("local")
+```
+
+```{r}
+iris_tbl <- copy_to(sc, iris)
+
+```
