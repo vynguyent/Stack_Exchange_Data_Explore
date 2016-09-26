@@ -36,8 +36,12 @@ shinyServer(function(input, output) {
     colors=brewer.pal(8,"Dark2")
     d<-dataset()
     wordcloud(d$tags, d$count, max.words=100,
-              scale=c(10,3),min.freq=-Inf,
+              scale=c(8,0.2),min.freq=-Inf,
               colors=colors,random.order=F,random.color=F,ordered.colors=F,
               main='Pop tags')
-    }, height=700)
-  })
+    }, height=600)
+  output$record <- renderDataTable(
+    dataset()
+  )
+
+})
