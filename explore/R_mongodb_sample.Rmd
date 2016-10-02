@@ -5,8 +5,8 @@ output: html_document
 
 ```{r}
 library(mongolite)
-client <- mongo(collection="Posts", db="3dprinting_stackexchange_com", url="mongodb://yida:yida@localhost:27272")
-client$find('{"@PostTypeId": "1"}')
+client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://vynguyen:vynguyen@0.tcp.ngrok.io:14162/admin")
+client$find('{"@PostTypeId": "1"}', limit=100)
 ```
 
 
