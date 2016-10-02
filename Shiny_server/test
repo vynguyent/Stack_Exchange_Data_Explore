@@ -1,0 +1,22 @@
+rm(list = ls())
+s<-Sys.time()
+
+load(file ='tag2.RData')
+countstat<-unlist(lapply(tag[[1]], function(x,start,end) {
+    sapply(x, function(xx) {
+      tm <- paste(names(xx[[2]]),'-01',sep = '')
+      c(name=xx[[1]],freq=sum(xx[[2]][tm<=end & tm>=start]))}
+    )
+  }, start = '2011-01-01', end= '2016-09-01'))
+  len <- length((countstat))
+  tags <- (countstat)[2*(seq(len/2))-1]
+  count <- as.integer((countstat)[2*seq(len/2)])
+  countstat<-data.frame(tags= tags,count=count)
+
+  
+  colors=brewer.pal(8,"Dark2")
+  wordcloud(countstat$tags, countstat$count, max.words=100,
+            scale=c(8,0.2),min.freq=-Inf,
+            colors=colors,random.order=F,random.color=F,ordered.colors=F,
+            main='Pop tags')
+print(Sys.time() - s)
