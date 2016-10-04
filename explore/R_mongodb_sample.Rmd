@@ -2,25 +2,67 @@
 title: "R_Sample_Code"
 output: html_document
 ---
+```{r setup, include=FALSE}
+library(mongolite)
+library(dplyr)
+library(reshape2)
+library(igraph)
+```
+
 
 ```{r}
-library(mongolite)
-client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://vynguyen:vynguyen@0.tcp.ngrok.io:14162/admin")
+client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://yida:yida@0.tcp.ngrok.io:14162/admin")
 client$find('{"@PostTypeId": "1"}', limit=100)
 ```
 
-
 ```{r}
-library(sparklyr)
-library(dplyr)
+splitTags = function(x){
+    tags = str_match_all(x, "<(.+?)>")[[1]][,2]
+    if(length(tags)<=1){
+        return()
+    }
+    edges_list = combn(tags, 2)
+    return(edges_list)
+}
 
+tags = posts$`@Tags`
+tags = lapply(tags, splitTags)
 
-Sys.setenv(SPARK_HOME="C:\\Users\\yyin4\\AppData\\Local\\rstudio\\spark\\Cache\\spark-1.6.2-bin-hadoop2.6")
-Sys.getenv("SPARK_HOME")
-sc = spark_connect("local")
+el = matrix(unlist(tags), ncol=2, byrow=T)
+g = make_graph(t(el), directed=F)
+# -------------
+adj_matrix = get.adjacency(g,sparse=FALSE)
+del = c()
+for(i in 1:dim(adj_matrix)[1]){
+        del = c(del, i)
+    }
+}
+adj_matrix = adj_matrix[-del, -del]
+g = graph_from_adjacency_matrix(adj_matrix, mode = c("undirected"), weighted=TRUE)
+E(g)$width <- E(g)$weight/max(E(g)$weight) * 10
+# ------------
+plot(g, 
+     # vertex.shape="none", 
+     # vertex.label=NA, 
+     layout=layout.circle(g),
+     vertex.size = degree(adj_matrix) / max(degree(adj_matrix)) * 50,
+     edge.curved = T
+     )
 ```
 
-```{r}
-iris_tbl <- copy_to(sc, iris)
 
+
+```{r}
+# library(sparklyr)
+# library(dplyr)
+# 
+# 
+# Sys.setenv(SPARK_HOME="C:\\Users\\yyin4\\AppData\\Local\\rstudio\\spark\\Cache\\spark-1.6.2-bin-hadoop2.6")
+# Sys.getenv("SPARK_HOME")
+# sc = spark_connect("local")
 ```
+
+
+
+
+

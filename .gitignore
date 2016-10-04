@@ -1,3 +1,7 @@
 .idea
 mongo_auth
 explore/debug.log
+debug.log
+explore/debug.log
+*.log
+explore/debug.log
