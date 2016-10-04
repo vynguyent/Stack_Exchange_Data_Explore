@@ -1,10 +1,14 @@
 ---
 title: "R_Sample_Code"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 ```{r setup, include=FALSE}
 library(mongolite)
 library(dplyr)
+library(stringr)
 library(reshape2)
 library(igraph)
 ```
@@ -12,7 +16,8 @@ library(igraph)
 
 ```{r}
 client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://yida:yida@0.tcp.ngrok.io:14162/admin")
-client$find('{"@PostTypeId": "1"}', limit=100)
+posts = client$find('{"@PostTypeId": "1"}', limit=100)
+# posts
 ```
 
 ```{r}
@@ -25,6 +30,7 @@ splitTags = function(x){
     return(edges_list)
 }
 
+posts = client$find('{"@PostTypeId": "1"}', limit=4000)
 tags = posts$`@Tags`
 tags = lapply(tags, splitTags)
 
@@ -34,18 +40,20 @@ g = make_graph(t(el), directed=F)
 adj_matrix = get.adjacency(g,sparse=FALSE)
 del = c()
 for(i in 1:dim(adj_matrix)[1]){
+    if (sum(adj_matrix[i,])<200){
         del = c(del, i)
     }
 }
 adj_matrix = adj_matrix[-del, -del]
 g = graph_from_adjacency_matrix(adj_matrix, mode = c("undirected"), weighted=TRUE)
 E(g)$width <- E(g)$weight/max(E(g)$weight) * 10
+d = sna::degree(adj_matrix)
 # ------------
 plot(g, 
      # vertex.shape="none", 
      # vertex.label=NA, 
      layout=layout.circle(g),
-     vertex.size = degree(adj_matrix) / max(degree(adj_matrix)) * 50,
+     vertex.size = d / max(d) * 50,
      edge.curved = T
      )
 ```
