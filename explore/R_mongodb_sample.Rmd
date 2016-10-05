@@ -16,11 +16,12 @@ library(igraph)
 
 ```{r}
 client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://yida:yida@0.tcp.ngrok.io:14162/admin")
-posts = client$find('{"@PostTypeId": "1"}', limit=100)
+#posts = client$find('{"@PostTypeId": "1"}', limit=100)
 # posts
 ```
 
-```{r}
+```{r}  
+
 splitTags = function(x){
     tags = str_match_all(x, "<(.+?)>")[[1]][,2]
     if(length(tags)<=1){
@@ -48,19 +49,22 @@ adj_matrix = adj_matrix[-del, -del]
 g = graph_from_adjacency_matrix(adj_matrix, mode = c("undirected"), weighted=TRUE)
 E(g)$width <- E(g)$weight/max(E(g)$weight) * 10
 d = sna::degree(adj_matrix)
+
 # ------------
 plot(g, 
-     # vertex.shape="none", 
-     # vertex.label=NA, 
      layout=layout.circle(g),
      vertex.size = d / max(d) * 50,
-     edge.curved = T
+     edge.curved = T,
+     vertex.label.font=2	,
+     vertex.label.dist = 0.3	,
+     vertex.label.cex	= 2
      )
+
 ```
 
 
 
-```{r}
+```{r,include=F}
 # library(sparklyr)
 # library(dplyr)
 # 

@@ -1,0 +1,124 @@
+---
+title: "PRESENTATION679"
+author: "Dingxian Cao,Yida Yin,Peiyang Yu,Kirthanaa Raghuraman,Vy Nguyen"
+date: "10/5/2016"
+output: revealjs::revealjs_presentation
+---  
+
+```{r setup, include=FALSE}
+options(warn = -1)
+library(mongolite)
+library(dplyr)
+library(stringr)
+library(reshape2)
+library(igraph)
+require(wordcloud)
+```
+
+## stackexchange.com
+
+- 318 communities: stackoverflow.com, stats.stackexchange.com, ...
+- 8 attributes: 
+
+```{shell}
+> use stats_stackexchange_com
+> show collections
+Badges Comments PostHistory PostLinks Posts Tags Users Votes
+
+> db.Tags.findOne()
+{
+	"_id" : ObjectId("57e4a5e540391b29b8f9aec9"),
+	"@Id" : "1",
+	"@TagName" : "bayesian",
+	"@Count" : "2663",
+	"@ExcerptPostId" : "20258",
+	"@WikiPostId" : "20257"
+}
+```
+
+- data size: 300G
+
+## tidy data
+
+```{r,include=FALSE}
+client <- mongo(collection="Tags", db="stats_stackexchange_com", url="mongodb://yida:yida@0.tcp.ngrok.io:14162/admin")
+num=1000
+tags = client$find(limit=num)
+sam=sample(1:num,size = 10)
+```
+
+```{r}
+tags[sam,]
+```
+
+
+## Tag Frequency  
+
+```{r,include=F}
+load(file ='../Shiny_server/tag2.Rdata')
+countstat<-unlist( lapply(tag[[1]], function(x,start,end) {
+      sapply(x, function(xx) {
+        tm <- paste(names(xx[[2]]),'-01',sep = '')
+        c(name=xx[[1]],freq=sum(xx[[2]][tm<=end & tm>=start]))}
+      )
+    }, start = '2015-09-01', end= '2016-09-01' ))
+    
+len <- length((countstat))
+tags <- (countstat)[2*(seq(len/2))-1]
+count <- as.integer((countstat)[2*seq(len/2)])
+d<-data.frame(tags= tags,count=count)
+colors=brewer.pal(8,"Dark2")
+```
+
+```{r}
+head(arrange(d,desc(count)),10)
+```
+
+## Tag wordcloud
+```{r}
+wordcloud(d$tags, d$count, max.words=100,scale=c(8,0.2),min.freq=-Inf,colors=colors,random.order=F,random.color=F,ordered.colors=F)
+
+```
+
+
+## Tag Network
+
+```{r,include=F}  
+client <- mongo(collection="Posts", db="stats_stackexchange_com", url="mongodb://yida:yida@0.tcp.ngrok.io:14162/admin")
+splitTags = function(x){
+    tags = str_match_all(x, "<(.+?)>")[[1]][,2]
+    if(length(tags)<=1){
+        return()
+    }
+    edges_list = combn(tags, 2)
+    return(edges_list)
+}
+
+posts = client$find('{"@PostTypeId": "1"}', limit=4000)
+tags = posts$`@Tags`
+tags = lapply(tags, splitTags)
+
+el = matrix(unlist(tags), ncol=2, byrow=T)
+g = make_graph(t(el), directed=F)
+# -------------
+adj_matrix = get.adjacency(g,sparse=FALSE)
+del = c()
+for(i in 1:dim(adj_matrix)[1]){
+    if (sum(adj_matrix[i,])<200){
+        del = c(del, i)
+    }
+}
+adj_matrix = adj_matrix[-del, -del]
+g = graph_from_adjacency_matrix(adj_matrix, mode = c("undirected"), weighted=TRUE)
+E(g)$width <- E(g)$weight/max(E(g)$weight) * 10
+d = sna::degree(adj_matrix)
+```
+
+
+
+```{r,fig.height= 8,fig.width= 12}
+plot(g,layout=layout.circle(g), vertex.size = d / max(d) * 50, edge.curved = T,vertex.label.font=2	,vertex.label.dist = 1	,vertex.label.cex	= 1.2)
+```  
+
+
+
