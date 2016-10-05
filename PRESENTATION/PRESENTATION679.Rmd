@@ -1,8 +1,8 @@
 ---
 title: "PRESENTATION679"
-author: "Dingxian Cao,Yida Yin,Peiyang Yu,Kirthanaa Raghuraman,Vy Nguyen"
+author: "Dingxian Cao,Yida Yin,Peiyang Yu,Vy Nguyen,Kirthanaa Raghuraman"
 date: "10/5/2016"
-output: revealjs::revealjs_presentation
+output: html_document
 ---  
 
 ```{r setup, include=FALSE}
