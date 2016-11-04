@@ -1,0 +1,86 @@
+---
+title: "Parse"
+output: html_notebook
+---
+
+
+
+```{r}
+rm(list=ls())
+
+library(plyr)
+library(stringr)
+setwd("E:\\stackexchange_Extracted\\3dprinting.stackexchange.com")
+#############################
+#   PARSE THE POSTS FILE
+#############################
+
+postdata = data.frame(Id=character(),
+                      PostTypeId=character(),
+                      ParentId=character(),
+                      ViewCount=numeric(),
+                      Body=character(),
+                      Title=character(),
+                      Tags=character())
+
+post  <- file("Posts.xml", open = "r")
+# read file line by line
+while (length(thisLine <- readLines(post, n = 1, warn = FALSE)) > 0) {
+    # check whether "<row Id=" appears in this line
+    if (!grepl("<row Id", thisLine)){next}
+    
+    # parse "Id"
+    if (grepl("Id=\"", thisLine)){
+        Id = str_match(thisLine, "Id=\"(\\d+)\"")[, 2]
+    } else {Id = NA} 
+    # parse "PostTypeId"
+    if (grepl("PostTypeId=\"", thisLine)){
+        PostTypeId = str_match(thisLine, "PostTypeId=\"(\\d+)\"")[, 2]
+        if (PostTypeId !="1") {next}
+    } else {PostTypeId = NA}
+    # parse "ViewCount"
+    if (grepl("ViewCount=\"", thisLine)){
+        ViewCount = str_match(thisLine, "ViewCount=\"(\\d+)\"")[, 2]
+    } else { ViewCount = NA}
+    
+    # parse "Body"
+    if (grepl("Body=\"", thisLine)){
+        Body = str_match(thisLine, "Body=\"(.+?)\" Owner")[, 2]
+    } else {Body = NA}
+    # parse "Title"
+    if (grepl("Title=\"", thisLine)){
+        Title = str_match(thisLine, "Title=\"(.+?)\"")[, 2]
+    } else {Title = NA}
+    # parse "Tags"
+    if (grepl("Tags=\"", thisLine)){
+        Tags = str_match(thisLine, "Tags=\"(.+?)\"")[, 2]
+    } else {Tags = NA}
+    postdata = rbind(postdata, data.frame(Id, PostTypeId, ViewCount,Body, Title, Tags))
+}
+close(post)
+rm(list=c("Body", "Id", "post", "PostTypeId", "Tags", "thisLine", "Title", "ViewCount"))
+save(postdata,file = 'postdata.Rdata')
+```
+
+```{r}
+library(stringr)
+postdata$Tags = lapply(postdata$Tags, function(x){str_replace_all(x, "&lt;", "<")})
+postdata$Tags = lapply(postdata$Tags, function(x){str_replace_all(x, "&gt;", ">")})
+
+postdata$Body = lapply(postdata$Body, function(x){str_replace_all(x, "&lt;p&gt;", "")})
+postdata$Body = lapply(postdata$Body, function(x){str_replace_all(x, "&lt;/p&gt;&#xA;", "")})
+postdata$Body = lapply(postdata$Body, function(x){str_replace_all(x, "&#xA;", "")})
+```
+
+```{r}
+word_bag = c()
+for (i in 1:length(postdata$Title)){
+    title = toString(postdata$Title[i])
+    title = str_replace_all(title, "\\?", "")
+    word_bag = c(word_bag, strsplit(title, " ")[[1 ]])
+}
+```
+
+
+
+
