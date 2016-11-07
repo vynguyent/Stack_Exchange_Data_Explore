@@ -9,12 +9,12 @@ test = postdata[80001:86912, c("Title", "Tags")]
 library(stringr)
 
 print(test$Title[1])
-train_title = test$Title[1] %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" ")
-train_vector = word_bag2 %in% train_title[[1]]
+test_title = test$Title[1] %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" ")
+test_vector = word_bag2 %in% test_title[[1]]
 
 
 innerProduct = lapply(train$Title, function(x){
-        (word_bag2 %in% (x %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" "))[[1]] + 0) %*% train_vector
+        (word_bag2 %in% (x %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" "))[[1]] + 0) %*% test_vector
     })
 innerProduct = unlist(innerProduct)
 print(train[which(innerProduct==max(innerProduct)), ]$Title)
