@@ -1,21 +1,19 @@
 
 
-```{r}
-train = postdata[1:80000, c("Title", "Tags")]
-test = postdata[80001:86912, c("Title", "Tags")]
-```
 
 ```{r}
 library(stringr)
 
-print(test$Title[1])
-test_title = test$Title[1] %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" ")
-test_vector = word_bag2 %in% test_title[[1]]
-
-
-innerProduct = lapply(train$Title, function(x){
+findMostSimiliar = function(text){
+    test_title = text %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" ")
+    test_vector = word_bag2 %in% test_title[[1]]    
+    
+    innerProduct = lapply(postdata$Title, function(x){
         (word_bag2 %in% (x %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" "))[[1]] + 0) %*% test_vector
-    })
-innerProduct = unlist(innerProduct)
-print(train[which(innerProduct==max(innerProduct)), ]$Title)
+    }) %>% unlist()
+    return(postdata[which(innerProduct==max(innerProduct)), ]$Title)
+}
+
+
+findMostSimiliar("How to use Fisher scoring to solve poisson regression without using the default glm function?")
 ```
