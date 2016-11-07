@@ -1,3 +1,5 @@
+gc()
+setwd('/Users/CDX/Stack_Exchange_Data_Explore/explore/TopicModel/')
 #load topic models library
 library(topicmodels)
 
@@ -10,24 +12,27 @@ nstart <- 5
 best <- TRUE
 #Number of topics
 k <- 5
-source('freq.R')
-load(dtm,'dtm.RData')
+#source('freq.R')#if update stopwords in 'clean.R'
+load(file = 'dtm.RData')
+ 
+# ldaOut <-LDA(dtm.td,k, method='Gibbs',
+#              control=list(nstart=nstart, seed = seed, best=best
+#                           , burnin = burnin, iter = iter, thin=thin))
+ldaOut <-LDA(dtm,k)
 
-ldaOut <-LDA(dtm,k, method='Gibbs',
-             control=list(nstart=nstart, seed = seed, best=best
-                          , burnin = burnin, iter = iter, thin=thin))
+
 #write out results
 #docs to topics
 ldaOut.topics <- as.matrix(topics(ldaOut))
-write.csv(ldaOut.topics,file=paste("LDAGibbs",k,"DocsToTopics.csv"))
+write.csv(ldaOut.topics,file=paste("LDA",k,"DocsToTopics.csv"))
 
 #top 6 terms in each topic
 ldaOut.terms <- as.matrix(terms(ldaOut,6))
-write.csv(ldaOut.terms,file=paste("LDAGibbs",k,"TopicsToTerms.csv"))
+write.csv(ldaOut.terms,file=paste("LDA",k,"TopicsToTerms.csv"))
 
 #probabilities associated with each topic assignment
 topicProbabilities <- as.data.frame(ldaOut@gamma)
-write.csv(topicProbabilities,file=paste("LDAGibbs",k,"TopicProbabilities.csv"))
+write.csv(topicProbabilities,file=paste("LDA",k,"TopicProbabilities.csv"))
 
 #Find relative importance of top 2 topics
 topic1ToTopic2 <- lapply(1:nrow(dtm),function(x)

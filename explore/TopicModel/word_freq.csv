@@ -1,22 +1,22 @@
 "","x"
-"regression",9161
-"data",8893
+"regression",9162
+"data",8895
 "model",7408
 "test",5434
 "distribution",5220
-"variables",4252
+"variables",4254
 "using",4184
 "between",3700
 "variable",3612
 "two",3473
 "linear",3357
 "analysis",3324
-"time",3314
-"when",3293
+"time",3315
+"when",3299
 "random",3191
 "sample",2780
 "multiple",2635
-"does",2482
+"does",2483
 "probability",2419
 "series",2324
 "logistic",2308
@@ -25,7 +25,7 @@
 "different",2160
 "correlation",2123
 "models",2110
-"error",1961
+"error",1962
 "variance",1886
 "difference",1806
 "values",1792
@@ -35,7 +35,7 @@
 "standard",1556
 "confidence",1547
 "value",1476
-"anova",1458
+"anova",1459
 "size",1449
 "this",1443
 "matrix",1439
@@ -104,21 +104,21 @@
 "you",813
 "pca",805
 "interaction",802
-"interpretation",801
+"interpretation",802
 "parameter",801
 "coefficient",797
 "process",794
 "plot",791
 "conditional",780
 "calculating",765
-"interpret",753
+"interpret",754
 "covariance",724
 "package",723
-"dataset",720
+"dataset",721
 "measure",719
 "feature",710
 "tests",710
-"but",708
+"but",709
 "machine",707
 "deviation",696
 "output",696
@@ -191,19 +191,19 @@
 "some",503
 "predictors",502
 "appropriate",499
-"forecasting",498
+"forecasting",499
+"other",498
 "log",497
-"other",497
 "arima",494
 "survival",493
 "bayes",492
 "prior",491
 "modeling",489
-"term",486
+"term",487
 "relationship",485
 "point",484
 "markov",483
-"without",481
+"without",483
 "order",479
 "classifier",477
 "correlated",477
@@ -238,8 +238,8 @@
 "type",414
 "curve",413
 "has",408
+"out",399
 "bias",398
-"out",398
 "make",397
 "beta",396
 "performance",396
@@ -253,7 +253,7 @@
 "terms",390
 "multinomial",388
 "calculation",385
-"better",382
+"better",383
 "cox",379
 "formula",377
 "count",374
@@ -267,7 +267,6 @@
 "predictive",356
 "square",356
 "proportions",355
-"whats",355
 "odds",354
 "bootstrap",353
 "mixture",352
@@ -458,11 +457,11 @@
 "stationary",210
 "interactions",209
 "percentage",209
+"unknown",209
 "covariate",208
 "matrices",208
 "prove",208
 "times",208
-"unknown",208
 "include",207
 "hidden",206
 "index",206
@@ -598,15 +597,15 @@
 "arma",158
 "behind",158
 "calculated",158
+"derivation",158
 "having",158
 "outlier",158
 "threshold",158
-"derivation",157
 "identify",157
+"observation",157
 "posthoc",157
 "too",157
 "classifiers",156
-"observation",156
 "outcomes",156
 "dimensionality",155
 "online",155
@@ -620,9 +619,9 @@
 "seasonal",153
 "important",152
 "looking",152
+"adjusted",151
 "caret",151
 "via",151
-"adjusted",150
 "curves",149
 "factorial",149
 "seasonality",149
@@ -646,9 +645,9 @@
 "sem",144
 "bound",143
 "give",143
+"increase",143
 "applying",142
 "image",142
-"increase",142
 "rsquared",142
 "simulate",142
 "twoway",142
@@ -913,7 +912,6 @@
 "units",92
 "adjusting",91
 "bic",91
-"cant",91
 "controlling",91
 "packages",91
 "pooled",91
@@ -959,6 +957,7 @@
 "heteroscedasticity",86
 "lines",86
 "pairs",86
+"quot",86
 "taking",86
 "unsupervised",86
 "walk",86
@@ -974,6 +973,7 @@
 "hazards",84
 "noisy",84
 "pymc",84
+"replacement",84
 "uniformly",84
 "attributes",83
 "distances",83
@@ -982,7 +982,6 @@
 "randomized",83
 "randomly",83
 "relationships",83
-"replacement",83
 "transformations",83
 "upper",83
 "bounds",82
@@ -1298,7 +1297,6 @@
 "strategy",58
 "treat",58
 "zscore",58
-"andor",57
 "cannot",57
 "cnn",57
 "conduct",57
@@ -1600,7 +1598,6 @@
 "opposite",42
 "periodic",42
 "quantity",42
-"quot",42
 "svms",42
 "timevarying",42
 "world",42
@@ -1895,6 +1892,7 @@
 "noninformative",32
 "onesample",32
 "patients",32
+"precisionrecall",32
 "radial",32
 "separable",32
 "shared",32
@@ -1925,7 +1923,6 @@
 "nonnormally",31
 "performed",31
 "powerful",31
-"precisionrecall",31
 "request",31
 "restrictions",31
 "rms",31
@@ -2049,6 +2046,7 @@
 "invalid",28
 "lmm",28
 "math",28
+"mathematically",28
 "mlogit",28
 "mortality",28
 "nesting",28
@@ -2097,7 +2095,6 @@
 "inside",27
 "invariance",27
 "mape",27
-"mathematically",27
 "mcnemars",27
 "membership",27
 "nnet",27
@@ -2148,6 +2145,7 @@
 "logarithm",26
 "logic",26
 "logrank",26
+"loop",26
 "manual",26
 "marginals",26
 "margins",26
@@ -2157,7 +2155,6 @@
 "onetailed",26
 "practices",26
 "production",26
-"quotthe",26
 "reml",26
 "removal",26
 "replication",26
@@ -2235,7 +2232,6 @@
 "knearest",24
 "leave",24
 "loading",24
-"loop",24
 "mann",24
 "okay",24
 "pass",24
@@ -2490,6 +2486,7 @@
 "goal",20
 "heatmap",20
 "heavily",20
+"hlm",20
 "iii",20
 "influential",20
 "interesting",20
@@ -2557,7 +2554,6 @@
 "fraud",19
 "funnel",19
 "games",19
-"hlm",19
 "homework",19
 "ica",19
 "intensity",19
@@ -2663,6 +2659,7 @@
 "preprocess",18
 "presenting",18
 "quota",18
+"quotquot",18
 "rationale",18
 "replicated",18
 "resolution",18
@@ -3068,7 +3065,6 @@
 "symbols",14
 "tags",14
 "targets",14
-"thats",14
 "timepoints",14
 "toolbox",14
 "transaction",14
@@ -3077,11 +3073,13 @@
 "tweedie",14
 "twodimensional",14
 "unstable",14
+"whats",14
 "wilcoxtest",14
 "windows",14
 "accelerated",13
 "affecting",13
 "amounts",13
+"beforeafter",13
 "betting",13
 "brain",13
 "brier",13
@@ -3323,7 +3321,6 @@
 "qda",12
 "quasiexperimental",12
 "quotbestquot",12
-"quotquot",12
 "race",12
 "rainfall",12
 "reality",12
@@ -3377,7 +3374,6 @@
 "appears",11
 "arrays",11
 "asymmetrical",11
-"beforeafter",11
 "blocked",11
 "blocking",11
 "body",11
@@ -3494,7 +3490,7 @@
 "shuffling",11
 "since",11
 "slightly",11
-"stateoftheart",11
+"stateofart",11
 "static",11
 "steins",11
 "stress",11
@@ -4489,6 +4485,7 @@
 "sequentially",7
 "sides",7
 "sigmaalgebra",7
+"signalnoise",7
 "signify",7
 "skip",7
 "slice",7
@@ -5218,7 +5215,6 @@
 "interrelated",5
 "intraday",5
 "irfs",5
-"isare",5
 "itembased",5
 "jamesstein",5
 "jarquebera",5
@@ -5450,7 +5446,6 @@
 "shortfall",5
 "shuffled",5
 "sidebyside",5
-"signaltonoise",5
 "signficance",5
 "signficant",5
 "simulator",5
@@ -5496,9 +5491,9 @@
 "tetrachoric",5
 "ticket",5
 "tight",5
+"timeevent",5
 "timepoint",5
 "timestamps",5
-"timetoevent",5
 "torch",5
 "tost",5
 "trainingtest",5
@@ -5904,6 +5899,7 @@
 "loglevel",4
 "loglink",4
 "logy",4
+"loops",4
 "lowerorder",4
 "lsi",4
 "lssvm",4
@@ -5911,7 +5907,7 @@
 "magic",4
 "maintain",4
 "maintaining",4
-"manytoone",4
+"manyone",4
 "marginally",4
 "mariano",4
 "marked",4
@@ -6051,6 +6047,7 @@
 "promotion",4
 "propagating",4
 "proscons",4
+"protect",4
 "proteins",4
 "psi",4
 "pso",4
@@ -6451,6 +6448,7 @@
 "bookmakers",3
 "bootsrap",3
 "borelcantelli",3
+"boxwhisker",3
 "boys",3
 "bptt",3
 "breakdown",3
@@ -6832,6 +6830,7 @@
 "heaviside",3
 "hence",3
 "highlight",3
+"hitmiss",3
 "holdem",3
 "holts",3
 "homogenous",3
@@ -6898,6 +6897,7 @@
 "isotonic",3
 "isotropic",3
 "italian",3
+"itemitem",3
 "itemset",3
 "itemtotal",3
 "ith",3
@@ -6980,7 +6980,6 @@
 "logtransformation",3
 "loguniform",3
 "lookup",3
-"loops",3
 "lowerupper",3
 "lowhigh",3
 "lowpass",3
@@ -7045,6 +7044,7 @@
 "mobility",3
 "mod",3
 "modal",3
+"modelmatrix",3
 "modifier",3
 "modulo",3
 "monetary",3
@@ -7140,7 +7140,6 @@
 "optima",3
 "optimizations",3
 "oracle",3
-"orand",3
 "orthogonalized",3
 "oscillations",3
 "outquot",3
@@ -7238,7 +7237,6 @@
 "programmer",3
 "promotions",3
 "proposition",3
-"protect",3
 "provedisprove",3
 "proximal",3
 "pseudoinverse",3
@@ -7331,8 +7329,6 @@
 "quotvariance",3
 "quotweight",3
 "quotweightedquot",3
-"quotwhat",3
-"quotwith",3
 "quotx",3
 "quotyesquot",3
 "raffle",3
@@ -7391,6 +7387,7 @@
 "reviewing",3
 "richness",3
 "ridgelasso",3
+"river",3
 "rmamv",3
 "rmark",3
 "roi",3
@@ -7551,6 +7548,7 @@
 "testset",3
 "testtraining",3
 "textcovxi",3
+"thats",3
 "theorems",3
 "thereof",3
 "threedimensional",3
@@ -7625,14 +7623,12 @@
 "wedding",3
 "wedge",3
 "weekends",3
-"whenwhy",3
 "wilcoxsigntest",3
 "wilk",3
 "winbugsopenbugs",3
 "winsorized",3
 "wipes",3
 "withingroups",3
-"withwithout",3
 "wlln",3
 "wold",3
 "wolfram",3
@@ -7653,6 +7649,7 @@
 "york",3
 "youre",3
 "yxx",3
+"zeroone",3
 "zone",3
 "zstandardization",3
 "zvalue",3
@@ -7823,7 +7820,6 @@
 "beauty",2
 "becx",2
 "beforeaftercontrolimpact",2
-"beforeandafter",2
 "behaves",2
 "berger",2
 "berksons",2
@@ -7888,7 +7884,6 @@
 "boxers",2
 "boxljung",2
 "boxs",2
-"boxwhisker",2
 "boy",2
 "bquot",2
 "bracket",2
@@ -8520,9 +8515,7 @@
 "forestplot",2
 "forever",2
 "forgetting",2
-"forloop",2
 "formulabased",2
-"forquot",2
 "foundations",2
 "foursided",2
 "fracpartial",2
@@ -8566,7 +8559,7 @@
 "gbmfit",2
 "gees",2
 "generalizable",2
-"generaltospecific",2
+"generalspecific",2
 "generosity",2
 "genlasso",2
 "genlinmixed",2
@@ -8664,7 +8657,6 @@
 "hint",2
 "hintons",2
 "historically",2
-"hitandmiss",2
 "hiv",2
 "hmisc",2
 "hmiscaregimpute",2
@@ -8803,7 +8795,6 @@
 "isp",2
 "isquared",2
 "isquot",2
-"itemitem",2
 "iterationsquot",2
 "itheta",2
 "ito",2
@@ -8910,6 +8901,7 @@
 "liked",2
 "likertscales",2
 "likertstyle",2
+"limn",2
 "linearregression",2
 "linearsvc",2
 "linequot",2
@@ -9086,7 +9078,6 @@
 "modelestimate",2
 "modelingvalidation",2
 "modellingquot",2
-"modelmatrix",2
 "moderately",2
 "modest",2
 "modulated",2
@@ -9256,8 +9247,9 @@
 "oneagainstall",2
 "onehalf",2
 "oneinflated",2
-"onetomany",2
-"onetoone",2
+"onemany",2
+"oneone",2
+"onevsrest",2
 "onset",2
 "opened",2
 "opening",2
@@ -9582,7 +9574,6 @@
 "quotgrouped",2
 "quothessian",2
 "quothierarchical",2
-"quothow",2
 "quothunting",2
 "quoti",2
 "quotifquot",2
@@ -9669,7 +9660,6 @@
 "quottesting",2
 "quotthinquot",2
 "quotties",2
-"quotto",2
 "quottotal",2
 "quottquot",2
 "quottreatmentquot",2
@@ -9815,7 +9805,6 @@
 "riddle",2
 "ridgeregression",2
 "riemannstieltjes",2
-"river",2
 "rmr",2
 "rmsd",2
 "rmsec",2
@@ -9829,8 +9818,8 @@
 "robot",2
 "robots",2
 "robustreg",2
-"rollandkeep",2
 "rolled",2
+"rollkeep",2
 "rooted",2
 "rootn",2
 "rotating",2
@@ -9932,7 +9921,6 @@
 "sigmasquared",2
 "sigmaxi",2
 "sigmay",2
-"signalnoise",2
 "signifance",2
 "signifcance",2
 "significan",2
@@ -10005,7 +9993,7 @@
 "specpgram",2
 "spellings",2
 "spherically",2
-"spikeandslab",2
+"spikeslab",2
 "spirit",2
 "splithalf",2
 "splitsplitplot",2
@@ -10076,8 +10064,8 @@
 "summaryglm",2
 "summations",2
 "summative",2
-"sumtozero",2
 "sumxi",2
+"sumzero",2
 "supermarket",2
 "supermartingale",2
 "superset",2
@@ -10373,7 +10361,6 @@
 "whilst",2
 "whom",2
 "whos",2
-"whywhen",2
 "wich",2
 "widgets",2
 "widths",2
@@ -10434,7 +10421,6 @@
 "yule",2
 "zeroinfl",2
 "zerointercept",2
-"zeroone",2
 "zeroorder",2
 "zerosum",2
 "zipfian",2
@@ -10788,7 +10774,6 @@
 "anchors",1
 "ancovaanova",1
 "ancovaintroduce",1
-"andadjusted",1
 "andersongill",1
 "andersonrubin",1
 "andrews",1
@@ -10825,7 +10810,6 @@
 "anovaezanovalm",1
 "anovaf",1
 "anovagls",1
-"anovahow",1
 "anovakruskalwallis",1
 "anovalm",1
 "anovalme",1
@@ -11138,6 +11122,7 @@
 "baba",1
 "babb",1
 "bachelor",1
+"backback",1
 "backcalculate",1
 "backcalculating",1
 "backed",1
@@ -11148,7 +11133,6 @@
 "backtested",1
 "backtestingcrossvalidation",1
 "backtests",1
-"backtoback",1
 "backtracking",1
 "backtransformed",1
 "backwardforward",1
@@ -11171,7 +11155,7 @@
 "ballanced",1
 "ballistic",1
 "ballistics",1
-"ballsandurns",1
+"ballsurns",1
 "bam",1
 "bamboo",1
 "bampw",1
@@ -11281,7 +11265,6 @@
 "behaviourhelp",1
 "behaviours",1
 "behing",1
-"behow",1
 "beingsends",1
 "beliefpropagation",1
 "believable",1
@@ -11345,7 +11328,6 @@
 "betatest",1
 "betatheta",1
 "betax",1
-"betterhow",1
 "betterknown",1
 "betweeen",1
 "betweenclass",1
@@ -11457,7 +11439,7 @@
 "blackwellmacqueen",1
 "blackwells",1
 "blackwood",1
-"blambdato",1
+"blambda",1
 "blame",1
 "blast",1
 "blau",1
@@ -11560,7 +11542,6 @@
 "bow",1
 "bowkerlike",1
 "bowlers",1
-"boxandwhisker",1
 "boxconstrained",1
 "boxcoxar",1
 "boxcoxdefaulty",1
@@ -11657,7 +11638,6 @@
 "busy",1
 "butterflies",1
 "butterfly",1
-"butwhat",1
 "buzz",1
 "bvalues",1
 "bvn",1
@@ -11707,6 +11687,7 @@
 "candecompparafac",1
 "candle",1
 "canonic",1
+"cant",1
 "cantelli",1
 "cantellis",1
 "canto",1
@@ -12741,7 +12722,6 @@
 "datafmiampmi",1
 "datageneration",1
 "dataguided",1
-"datahow",1
 "dataignore",1
 "dataimputation",1
 "datalines",1
@@ -12757,7 +12737,6 @@
 "datasetspecific",1
 "datasettransitioning",1
 "datasetways",1
-"datasetwhat",1
 "datatable",1
 "datatext",1
 "datatrainamptest",1
@@ -12766,7 +12745,6 @@
 "dataunstructured",1
 "datavalue",1
 "datawhitered",1
-"datawith",1
 "dated",1
 "datedaynight",1
 "dateranges",1
@@ -12780,8 +12758,8 @@
 "dawid",1
 "dawn",1
 "dax",1
+"dayday",1
 "daylight",1
-"daytoday",1
 "daywise",1
 "dbernp",1
 "dbm",1
@@ -12799,7 +12777,7 @@
 "deap",1
 "deathcensoring",1
 "deathrecurrence",1
-"decaytobaseline",1
+"decaybaseline",1
 "deceiving",1
 "decennial",1
 "decisionmaking",1
@@ -12927,7 +12905,6 @@
 "depthefficiency",1
 "depths",1
 "derivate",1
-"derivationthe",1
 "derivativecheck",1
 "derivedcalculated",1
 "derives",1
@@ -13213,7 +13190,7 @@
 "diversification",1
 "diversified",1
 "diversities",1
-"divideandconquer",1
+"divideconquer",1
 "dividends",1
 "divides",1
 "dividingmultiplying",1
@@ -13250,7 +13227,6 @@
 "documentterm",1
 "dodgeball",1
 "dodid",1
-"doescan",1
 "doesnot",1
 "dofgtp",1
 "dols",1
@@ -13403,8 +13379,8 @@
 "earthquakes",1
 "ease",1
 "easiermore",1
-"easytoapply",1
-"easytointerpret",1
+"easyapply",1
+"easyinterpret",1
 "easyyetrobust",1
 "ebayes",1
 "ebayr",1
@@ -13513,7 +13489,7 @@
 "eli",1
 "elicit",1
 "eligible",1
-"eliminfnto",1
+"eliminfn",1
 "elimintating",1
 "elisa",1
 "elite",1
@@ -13574,12 +13550,12 @@
 "encrypted",1
 "encyclopedia",1
 "endemicity",1
+"endend",1
 "endless",1
 "endofyear",1
 "endogeniety",1
 "endogenousinstrument",1
 "endorsed",1
-"endtoend",1
 "enemy",1
 "energies",1
 "enforced",1
@@ -13722,7 +13698,6 @@
 "errorterm",1
 "errorvariance",1
 "errorweight",1
-"errorwhy",1
 "erros",1
 "errrate",1
 "errror",1
@@ -13875,7 +13850,7 @@
 "expections",1
 "expedition",1
 "expensivequot",1
-"expensivetosample",1
+"expensivesample",1
 "experiement",1
 "experiencing",1
 "experimentalcontrol",1
@@ -14278,7 +14253,6 @@
 "foreach",1
 "forecasters",1
 "forecastingprediction",1
-"forecastingwith",1
 "forecastmethod",1
 "forecaststep",1
 "forecasttbats",1
@@ -14295,7 +14269,6 @@
 "forex",1
 "forgiving",1
 "forking",1
-"forloops",1
 "formalism",1
 "formalismname",1
 "formalities",1
@@ -14310,13 +14283,11 @@
 "formulaequation",1
 "formular",1
 "fornelllarcker",1
-"forprotect",1
 "forrests",1
 "forth",1
 "fortran",1
 "fortune",1
 "forums",1
-"forunknown",1
 "forwards",1
 "foundamental",1
 "foundational",1
@@ -14923,10 +14894,10 @@
 "hdrcde",1
 "headache",1
 "headed",1
+"headhead",1
 "heading",1
 "headquot",1
 "headsn",1
-"headtohead",1
 "headway",1
 "healing",1
 "healthy",1
@@ -15013,6 +14984,7 @@
 "higherpower",1
 "higherworse",1
 "highlighting",1
+"highlowvariance",1
 "highlyimbalanced",1
 "highlyskewed",1
 "highprecision",1
@@ -15020,7 +14992,6 @@
 "highscore",1
 "highscoring",1
 "hight",1
-"hightolowvariance",1
 "highwater",1
 "highway",1
 "hilberthuang",1
@@ -15039,14 +15010,12 @@
 "historicals",1
 "historicsocioeconomic",1
 "hitler",1
-"hitmiss",1
 "hitter",1
 "hive",1
 "hkb",1
 "hleftxright",1
 "hlmmixed",1
 "hlmrelated",1
-"hlmwhy",1
 "hlsens",1
 "hmathbfx",1
 "hmc",1
@@ -15123,17 +15092,13 @@
 "hotellinglawley",1
 "hothand",1
 "hough",1
+"hourhour",1
 "hourlydailyannual",1
-"hourtohour",1
 "householdlevel",1
 "househould",1
 "housequot",1
 "houses",1
-"howif",1
 "howlers",1
-"hows",1
-"howto",1
-"howwhy",1
 "hpc",1
 "hpi",1
 "hpikfe",1
@@ -15166,7 +15131,6 @@
 "huynhfeldt",1
 "hwf",1
 "hxfx",1
-"hxto",1
 "hxx",1
 "hxxtop",1
 "hxy",1
@@ -15327,7 +15291,6 @@
 "incorperate",1
 "incorporated",1
 "increasesdecreases",1
-"increasethe",1
 "increasingdecreasing",1
 "incrementaluplift",1
 "incude",1
@@ -15408,7 +15371,6 @@
 "influnces",1
 "infograph",1
 "infographic",1
-"infor",1
 "inforeferences",1
 "informalvisual",1
 "informatics",1
@@ -15572,7 +15534,6 @@
 "interpretationmeaning",1
 "interpretationquot",1
 "interpretationtime",1
-"interpretationuse",1
 "interpretaton",1
 "interpreter",1
 "interpretevaluate",1
@@ -15725,7 +15686,6 @@
 "itemsin",1
 "itemsquot",1
 "itemsum",1
-"itemtoitem",1
 "iter",1
 "iterate",1
 "ithetapropto",1
@@ -16177,19 +16137,17 @@
 "liklihood",1
 "lilkihood",1
 "lillieforstest",1
-"liminfnto",1
+"liminfn",1
 "limitbound",1
 "limitedmemory",1
 "limlimitsa",1
 "limlimitsnrightarrow",1
 "limmalme",1
-"limmtoinftyfracm",1
-"limn",1
-"limnto",1
+"limminftyfracm",1
 "limsup",1
-"limsupntoinfty",1
+"limsupninfty",1
 "limthetarightarrowinfthetamboxpthetaxleq",1
-"limttoinftyintttphit",1
+"limtinftyintttphit",1
 "linalg",1
 "lincom",1
 "lindebergs",1
@@ -16481,7 +16439,6 @@
 "lying",1
 "lymph",1
 "lyx",1
-"maand",1
 "macdonald",1
 "mache",1
 "machin",1
@@ -16656,7 +16613,6 @@
 "mathcaly",1
 "mathematicajava",1
 "mathematicallycoupled",1
-"mathematicallyhow",1
 "mathematicamathstatica",1
 "mathematicas",1
 "mathlabmatar",1
@@ -16830,7 +16786,7 @@
 "mediationmoderation",1
 "mediocre",1
 "mediumlow",1
-"mediumtosmall",1
+"mediumsmall",1
 "medoid",1
 "meds",1
 "meeaning",1
@@ -17105,7 +17061,6 @@
 "modellingstatistical",1
 "modellingtesting",1
 "modellng",1
-"modelmatrixand",1
 "modelmethod",1
 "modelok",1
 "modelparameterbased",1
@@ -17163,9 +17118,9 @@
 "monsters",1
 "monthdata",1
 "monthlyseasonal",1
+"monthmonth",1
 "monthonmonth",1
 "monthovermonth",1
-"monthtomonth",1
 "montyhall",1
 "monument",1
 "moocs",1
@@ -17536,6 +17491,7 @@
 "nigdistribution",1
 "nightmare",1
 "nikit",1
+"ninfty",1
 "niter",1
 "nitheta",1
 "nitpicky",1
@@ -17887,8 +17843,6 @@
 "nthetabartheta",1
 "nthetatheta",1
 "ntlk",1
-"nto",1
-"ntoinfty",1
 "ntree",1
 "nuclear",1
 "nuclei",1
@@ -17944,7 +17898,6 @@
 "obrien",1
 "observability",1
 "observationcase",1
-"observationhow",1
 "observationlevel",1
 "observationweighted",1
 "observationwise",1
@@ -17980,9 +17933,9 @@
 "offsetterm",1
 "offsetting",1
 "offsetvalue",1
+"offshelf",1
 "offshore",1
 "offspring",1
-"offtheshelf",1
 "ofquot",1
 "ohp",1
 "oja",1
@@ -18033,17 +17986,15 @@
 "oneversusall",1
 "onevsallonevsmany",1
 "onevsmanyonevsall",1
-"onevsrest",1
 "onevsrestclassifier",1
-"onevstherest",1
 "onewaytest",1
 "oneyear",1
 "onlinehardcopy",1
 "onlineincremental",1
 "onof",1
 "onpolicy",1
+"onrun",1
 "ontherapy",1
-"ontherun",1
 "ontology",1
 "ooberror",1
 "oobscore",1
@@ -18132,7 +18083,6 @@
 "oscillogram",1
 "osiusrojek",1
 "osuis",1
-"otheruse",1
 "otimes",1
 "otsu",1
 "otsus",1
@@ -18156,13 +18106,13 @@
 "outliersextreme",1
 "outlyingness",1
 "outofbound",1
+"outofbox",1
 "outofcore",1
 "outoffold",1
 "outofphase",1
 "outofrange",1
 "outofsamplequot",1
 "outofstock",1
-"outofthebox",1
 "outoftime",1
 "outperformance",1
 "outphase",1
@@ -18330,8 +18280,8 @@
 "partitionfunction",1
 "partly",1
 "partquot",1
-"parttowhole",1
 "partway",1
+"partwhole",1
 "partworths",1
 "passages",1
 "passenger",1
@@ -18403,9 +18353,9 @@
 "pds",1
 "pdw",1
 "pea",1
+"peakaverage",1
 "peaking",1
 "peaksvalleys",1
-"peaktoaverage",1
 "pears",1
 "pearsonfitml",1
 "pearsonr",1
@@ -18592,7 +18542,7 @@
 "pivoting",1
 "pivots",1
 "pix",1
-"pixeltopixel",1
+"pixelpixel",1
 "pizza",1
 "pkg",1
 "pla",1
@@ -18839,7 +18789,6 @@
 "precedures",1
 "preceeding",1
 "preciseexact",1
-"precisionandrecall",1
 "precisionap",1
 "precisionbased",1
 "precisionrelated",1
@@ -19348,8 +19297,6 @@
 "quotalmostquot",1
 "quotamount",1
 "quotanchoredquot",1
-"quotand",1
-"quotandquot",1
 "quotanglearccossphericalquot",1
 "quotanimal",1
 "quotanomalousnessquot",1
@@ -19362,7 +19309,6 @@
 "quotapproximately",1
 "quotapproximation",1
 "quotarch",1
-"quotare",1
 "quotargument",1
 "quotarima",1
 "quotarp",1
@@ -19652,19 +19598,16 @@
 "quotfixedquot",1
 "quotflagquot",1
 "quotflexclustquot",1
-"quotfor",1
 "quotforecasting",1
 "quotforeign",1
 "quotforgetfulnessquot",1
 "quotforgetsquot",1
 "quotformal",1
-"quotforquot",1
 "quotfraction",1
 "quotfrailtyquot",1
 "quotfrequent",1
 "quotfrequentistquot",1
 "quotfrog",1
-"quotfrom",1
 "quotfully",1
 "quotfunctionally",1
 "quotfunctionquot",1
@@ -19717,7 +19660,6 @@
 "quothitsquot",1
 "quothorseshoe",1
 "quothot",1
-"quothowtoquot",1
 "quothtsquot",1
 "quothuberizingquot",1
 "quothybridquot",1
@@ -19934,7 +19876,7 @@
 "quotobject",1
 "quotobjective",1
 "quotobserved",1
-"quotobservedtoexpectedquot",1
+"quotobservedexpectedquot",1
 "quotoccurence",1
 "quotodd",1
 "quotodds",1
@@ -19969,7 +19911,7 @@
 "quotpanels",1
 "quotparallel",1
 "quotparallelnessquot",1
-"quotparameterstosavequot",1
+"quotparameterssavequot",1
 "quotparametricquot",1
 "quotparametrized",1
 "quotparasiticquot",1
@@ -20131,6 +20073,7 @@
 "quotrunningquot",1
 "quotrunsquot",1
 "quotrv",1
+"quots",1
 "quotsafequot",1
 "quotsame",1
 "quotsample",1
@@ -20257,15 +20200,13 @@
 "quottestsquot",1
 "quottextbookquot",1
 "quottextsquot",1
-"quotthats",1
 "quottheoretically",1
-"quotthequot",1
 "quotthetaquot",1
 "quotthinking",1
 "quotthresholdquot",1
 "quotthrow",1
 "quottiesquot",1
-"quottimetoadoptquot",1
+"quottimeadoptquot",1
 "quottopologicalquot",1
 "quottrainfinalmodelquot",1
 "quottrainquot",1
@@ -20369,8 +20310,6 @@
 "quotwellroundednessquot",1
 "quotwhen",1
 "quotwhole",1
-"quotwhy",1
-"quotwhyquot",1
 "quotwidquot",1
 "quotwill",1
 "quotwilsonquot",1
@@ -20383,7 +20322,6 @@
 "quotwithindesignquot",1
 "quotwithinquot",1
 "quotwithoutquot",1
-"quotwithquot",1
 "quotword",1
 "quotwordlevel",1
 "quotwords",1
@@ -20668,7 +20606,6 @@
 "regressionss",1
 "regressionstill",1
 "regressionsvm",1
-"regressionthe",1
 "regressiontype",1
 "regressogram",1
 "regresssions",1
@@ -20921,7 +20858,7 @@
 "ripley",1
 "ripper",1
 "rise",1
-"risetopeak",1
+"risepeak",1
 "rising",1
 "riskiness",1
 "riskless",1
@@ -20930,7 +20867,6 @@
 "riskregression",1
 "risky",1
 "riv",1
-"riverwith",1
 "rjmcmc",1
 "rknn",1
 "rlanguage",1
@@ -21056,7 +20992,6 @@
 "rtext",1
 "rtmvnorm",1
 "rtool",1
-"rtoz",1
 "rtree",1
 "rtrlreal",1
 "rtsne",1
@@ -21145,8 +21080,8 @@
 "samplingdata",1
 "samplingimportance",1
 "samplingquot",1
+"samplingreplacement",1
 "samplingselection",1
-"samplingwithreplacement",1
 "sampsize",1
 "samuel",1
 "sand",1
@@ -21882,7 +21817,7 @@
 "statase",1
 "stateless",1
 "statelevel",1
-"stateofthe",1
+"stateof",1
 "statesvariables",1
 "statet",1
 "staticians",1
@@ -21936,7 +21871,7 @@
 "steep",1
 "stein",1
 "stem",1
-"stemandleaf",1
+"stemleaf",1
 "stems",1
 "stepahead",1
 "stepbystepby",1
@@ -22362,7 +22297,6 @@
 "termsdummies",1
 "termsquot",1
 "termss",1
-"termthe",1
 "terpstraonesided",1
 "terrain",1
 "territories",1
@@ -22551,19 +22485,18 @@
 "timepartitions",1
 "timeperiod",1
 "timeperproduct",1
+"timerecovery",1
 "timesaving",1
 "timeschoose",1
 "timesegmented",1
 "timeseriesbased",1
 "timeseriescrosssection",1
+"timesevent",1
 "timespan",1
 "timesquot",1
 "timesseries",1
 "timestaggeredrepeated",1
-"timestoevent",1
-"timetorecovery",1
 "timeupdated",1
-"timeuse",1
 "timevariable",1
 "timevariantinvariant",1
 "timevaryingparameter",1
@@ -22595,7 +22528,6 @@
 "tnu",1
 "toastmasters",1
 "tobitlike",1
-"tocan",1
 "toda",1
 "todays",1
 "toep",1
@@ -22623,7 +22555,6 @@
 "topn",1
 "topological",1
 "topranked",1
-"toquot",1
 "torn",1
 "torus",1
 "tot",1
@@ -23063,13 +22994,10 @@
 "usages",1
 "usedinterpreted",1
 "usedquot",1
-"usehow",1
-"useinterpret",1
 "useradaptive",1
 "userbased",1
 "userclient",1
 "usergenerated",1
-"userm",1
 "usernamesemails",1
 "userquot",1
 "usersids",1
@@ -23140,12 +23068,10 @@
 "variableassociated",1
 "variablefeature",1
 "variablesdifference",1
-"variableshow",1
 "variablesized",1
 "variablesquot",1
 "variablesregression",1
 "variabless",1
-"variableswith",1
 "variablewidth",1
 "variablity",1
 "variace",1
@@ -23183,7 +23109,7 @@
 "varoverlinex",1
 "varphif",1
 "varrible",1
-"varsqrtnhatthetathetato",1
+"varsqrtnhatthetatheta",1
 "vartrxt",1
 "varu",1
 "varvecmardl",1
@@ -23404,12 +23330,9 @@
 "wether",1
 "whale",1
 "whatever",1
-"whatif",1
-"whatre",1
 "whatsoever",1
 "whe",1
 "wheither",1
-"whenhow",1
 "whenwhere",1
 "whereby",1
 "wherefore",1
@@ -23474,7 +23397,6 @@
 "withinmz",1
 "withinss",1
 "withinstudy",1
-"withreplacement",1
 "withreplicates",1
 "witnesses",1
 "witty",1
@@ -23643,17 +23565,16 @@
 "xtregfe",1
 "xtscc",1
 "xtsim",1
+"xtt",1
 "xttest",1
 "xttxtland",1
 "xtunitroot",1
 "xtusintvcost",1
 "xtw",1
-"xtwitht",1
 "xtxi",1
 "xvar",1
 "xvariable",1
 "xvechx",1
-"xwith",1
 "xxi",1
 "xxldotsxn",1
 "xxt",1
@@ -23764,7 +23685,6 @@
 "zellner",1
 "zenital",1
 "zenith",1
-"zeroandone",1
 "zerocentering",1
 "zerocorrelation",1
 "zerocovariance",1
