@@ -85,12 +85,14 @@ postdata$Body = lapply(postdata$Body, function(x){str_replace_all(x, "&#xA;", ""
 ```
 
 ```{r}
-word_bag = c()
-for (i in 1:length(postdata$Title)){
-    title = toString(postdata$Title[i])
-    title = str_replace_all(title, "\\?", "")
-    word_bag = c(word_bag, strsplit(title, " ")[[1 ]])
-}
+word_bag = lapply(postdata$Title, function(x){
+    (x %>% toString() %>% str_replace_all("\\?", "") %>% strsplit(" "))[[1]]
+}) %>% unlist()
+
+n = length(table(word_bag))
+word_bag2 = names(sort(table(word_bag))[100:42600])   # You may change this!
+# word_bag = word_bag[!duplicated(word_bag)]
+rm(list=c("n"))
 ```
 
 
