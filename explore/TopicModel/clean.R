@@ -1,9 +1,6 @@
 library(tm)
-# #start preprocessing
+docs <- tm_map(docs,content_transformer(tolower))# Transform to lower case
 
-docs <- tm_map(docs,content_transformer(tolower))# #Transform to lower case
-
-# #remove potentially problematic symbols &quot
 toSpace <- content_transformer(function(x, pattern) { return (gsub(pattern, "", x))})
 docs <- tm_map(docs, toSpace, '-',lazy=TRUE)
 docs <- tm_map(docs, toSpace, "'",lazy=TRUE)
@@ -25,5 +22,7 @@ docs <- tm_map(docs, stripWhitespace,lazy = TRUE)
 
 #define and eliminate all custom stopwords
 myStopwords <- c('the','for','how','and','with','what','from','are','can'
-                 ,'that','use','why','to')
+                 ,'that','use','why','to','given','than','have','about','you',
+                 'using','does','not','there','which','should','when','problem'
+                 ,'but','into','some','other','need','any')
 docs <- tm_map(docs, removeWords, myStopwords,lazy=TRUE)

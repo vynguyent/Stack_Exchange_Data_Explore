@@ -1,22 +1,19 @@
 "","x"
 "regression",9162
 "data",8895
-"model",7408
+"model",7409
 "test",5434
 "distribution",5220
 "variables",4254
-"using",4184
 "between",3700
 "variable",3612
 "two",3473
 "linear",3357
 "analysis",3324
 "time",3315
-"when",3299
 "random",3191
 "sample",2780
 "multiple",2635
-"does",2483
 "probability",2419
 "series",2324
 "logistic",2308
@@ -29,7 +26,6 @@
 "variance",1886
 "difference",1806
 "values",1792
-"not",1733
 "one",1729
 "statistical",1602
 "standard",1556
@@ -39,16 +35,13 @@
 "size",1449
 "this",1443
 "matrix",1439
-"which",1405
 "number",1390
 "calculate",1387
-"effect",1386
+"effect",1387
 "testing",1370
 "normal",1362
-"should",1311
 "learning",1292
 "set",1269
-"there",1250
 "results",1233
 "classification",1198
 "effects",1184
@@ -61,9 +54,7 @@
 "compare",1052
 "distributions",1042
 "find",1025
-"than",1024
 "likelihood",1003
-"problem",1003
 "method",996
 "coefficients",981
 "neural",978
@@ -72,36 +63,32 @@
 "statistics",956
 "dependent",953
 "fit",953
-"given",951
 "prediction",945
 "factor",933
 "same",933
 "selection",933
 "estimate",930
 "significance",930
-"estimation",927
+"estimation",928
 "sampling",920
-"about",917
 "question",915
-"have",913
 "multivariate",903
 "best",901
+"based",898
 "binomial",898
 "way",898
-"based",897
 "algorithm",892
 "continuous",892
-"network",891
+"network",892
 "poisson",890
 "groups",882
 "samples",880
 "repeated",865
-"significant",862
+"significant",864
 "parameters",859
 "measures",844
 "gaussian",840
 "hypothesis",815
-"you",813
 "pca",805
 "interaction",802
 "interpretation",802
@@ -118,7 +105,6 @@
 "measure",719
 "feature",710
 "tests",710
-"but",709
 "machine",707
 "deviation",696
 "output",696
@@ -135,7 +121,7 @@
 "determine",648
 "more",646
 "density",644
-"estimating",639
+"estimating",640
 "validation",634
 "simple",633
 "methods",630
@@ -147,7 +133,7 @@
 "svm",607
 "ttest",607
 "fitting",603
-"where",598
+"where",600
 "spss",597
 "errors",595
 "maximum",590
@@ -171,28 +157,25 @@
 "small",545
 "differences",543
 "distributed",541
-"into",541
 "cross",540
 "points",536
 "residuals",534
-"fixed",526
+"fixed",527
 "good",525
 "kernel",522
 "pvalue",521
 "understanding",521
 "each",519
+"level",513
 "ordinal",513
-"level",512
 "all",509
 "vector",507
 "information",504
 "observations",504
 "probabilities",504
-"some",503
 "predictors",502
 "appropriate",499
 "forecasting",499
-"other",498
 "log",497
 "arima",494
 "survival",493
@@ -210,9 +193,7 @@
 "comparison",473
 "cluster",472
 "forest",472
-"need",469
 "statistic",469
-"any",468
 "compute",468
 "sets",468
 "accuracy",460
@@ -222,8 +203,8 @@
 "predict",448
 "nonlinear",447
 "exponential",445
+"least",440
 "predictor",440
-"least",439
 "ols",438
 "score",427
 "transformation",425
@@ -311,10 +292,10 @@
 "choose",309
 "component",309
 "its",309
+"another",307
 "joint",307
 "non",307
 "proportion",307
-"another",306
 "most",306
 "show",306
 "example",305
@@ -409,8 +390,8 @@
 "spatial",239
 "these",239
 "lmer",237
+"specific",237
 "unequal",237
-"specific",236
 "analyze",234
 "constant",234
 "optimization",234
@@ -640,8 +621,8 @@
 "sufficient",146
 "condition",145
 "higher",145
+"less",145
 "dynamic",144
-"less",144
 "sem",144
 "bound",143
 "give",143
@@ -718,19 +699,19 @@
 "geometric",126
 "populations",126
 "truncated",126
+"greater",125
 "inequality",125
 "people",125
 "setting",125
 "varying",125
-"greater",124
+"could",124
 "responses",124
-"could",123
+"big",123
 "improve",123
 "probabilistic",123
 "subject",123
 "trials",123
 "assessing",122
-"big",122
 "glmer",122
 "issues",122
 "kolmogorovsmirnov",122
@@ -848,6 +829,7 @@
 "hoc",102
 "intervention",102
 "nonsignificant",102
+"quot",102
 "tables",102
 "validity",102
 "averaging",101
@@ -943,11 +925,11 @@
 "frequentist",88
 "initial",88
 "labels",88
+"normalized",88
 "path",88
 "showing",88
 "years",88
 "next",87
-"normalized",87
 "normalizing",87
 "numeric",87
 "students",87
@@ -957,7 +939,6 @@
 "heteroscedasticity",86
 "lines",86
 "pairs",86
-"quot",86
 "taking",86
 "unsupervised",86
 "walk",86
@@ -1281,7 +1262,6 @@
 "documents",59
 "final",59
 "fold",59
-"others",59
 "penalized",59
 "regressor",59
 "respect",59
@@ -1305,6 +1285,7 @@
 "exogenous",57
 "increases",57
 "mass",57
+"others",57
 "smooth",57
 "social",57
 "zscores",57
@@ -2035,6 +2016,7 @@
 "decreases",28
 "difficulty",28
 "directed",28
+"drift",28
 "edge",28
 "effectiveness",28
 "expressed",28
@@ -2083,7 +2065,6 @@
 "discrimination",27
 "dissimilarity",27
 "dividing",27
-"drift",27
 "dropout",27
 "ets",27
 "extended",27
@@ -2377,6 +2358,7 @@
 "spatially",22
 "sphericity",22
 "stuck",22
+"sub",22
 "trace",22
 "trimmed",22
 "twosided",22
@@ -2429,6 +2411,7 @@
 "orders",21
 "periodicity",21
 "prepare",21
+"quotquot",21
 "ranksum",21
 "recommend",21
 "risks",21
@@ -2440,7 +2423,6 @@
 "soft",21
 "standardised",21
 "stl",21
-"sub",21
 "taylor",21
 "tune",21
 "tutorial",21
@@ -2659,7 +2641,6 @@
 "preprocess",18
 "presenting",18
 "quota",18
-"quotquot",18
 "rationale",18
 "replicated",18
 "resolution",18
@@ -3194,7 +3175,6 @@
 "surely",13
 "tanh",13
 "theoretically",13
-"theres",13
 "turn",13
 "unfair",13
 "unordered",13
@@ -5407,7 +5387,6 @@
 "reservoir",5
 "retention",5
 "retest",5
-"reusing",5
 "reverting",5
 "reviewer",5
 "reviewers",5
@@ -6942,6 +6921,7 @@
 "learnings",3
 "learns",3
 "leastsquare",3
+"leaveout",3
 "led",3
 "lenght",3
 "lengthquot",3
@@ -7229,7 +7209,6 @@
 "probabiltiy",3
 "probably",3
 "probe",3
-"problemquot",3
 "profilelikelihood",3
 "programmatically",3
 "programme",3
@@ -7280,7 +7259,6 @@
 "quotcritical",3
 "quotdiscriminant",3
 "quotdistancequot",3
-"quotdoes",3
 "quotfail",3
 "quotflat",3
 "quotgoodness",3
@@ -7303,7 +7281,6 @@
 "quotnicequot",3
 "quotnonlinearquot",3
 "quotnonparametricquot",3
-"quotnot",3
 "quotoutcomequot",3
 "quotpositive",3
 "quotpredictquot",3
@@ -7381,6 +7358,7 @@
 "resultquot",3
 "resume",3
 "retrieving",3
+"reusing",3
 "revealed",3
 "reversal",3
 "reversible",3
@@ -7647,7 +7625,6 @@
 "xvalue",3
 "xxx",3
 "york",3
-"youre",3
 "yxx",3
 "zeroone",3
 "zone",3
@@ -8873,7 +8850,6 @@
 "leak",2
 "learing",2
 "leastangle",2
-"leaveout",2
 "leftcensoring",2
 "leftfracn",2
 "leftsumin",2
@@ -9217,7 +9193,6 @@
 "notably",2
 "notational",2
 "notions",2
-"notsignificant",2
 "novices",2
 "nphard",2
 "nspace",2
@@ -9273,7 +9248,6 @@
 "orrr",2
 "orthogonalizing",2
 "orwins",2
-"otherquot",2
 "outage",2
 "outdated",2
 "outline",2
@@ -9613,8 +9587,8 @@
 "quotnode",2
 "quotnormal",2
 "quotnormalizingquot",2
-"quototherquot",2
 "quotoutliersquot",2
+"quotoverfittingquot",2
 "quotp",2
 "quotpaired",2
 "quotparameterquot",2
@@ -10416,7 +10390,6 @@
 "yis",2
 "yldotsyn",2
 "ynnin",2
-"youve",2
 "yquot",2
 "yule",2
 "zeroinfl",2
@@ -10803,7 +10776,6 @@
 "anomalyoutliers",1
 "anonymization",1
 "anonymizing",1
-"anotherdoes",1
 "anothers",1
 "anovaancova",1
 "anovabf",1
@@ -12467,7 +12439,6 @@
 "costum",1
 "cotinuous",1
 "cotraining",1
-"couldshould",1
 "council",1
 "counselling",1
 "countable",1
@@ -13304,7 +13275,6 @@
 "dress",1
 "dressers",1
 "driftquot",1
-"driftusing",1
 "drill",1
 "drinks",1
 "driversprobabilities",1
@@ -13433,7 +13403,6 @@
 "effectsizes",1
 "effectsmixed",1
 "effectsqy",1
-"effectwhich",1
 "effetcts",1
 "effexts",1
 "efffects",1
@@ -13728,7 +13697,6 @@
 "estimationformula",1
 "estimationidentification",1
 "estimationsimulation",1
-"estimationwhen",1
 "estimatod",1
 "estimatordefining",1
 "estimatorexponential",1
@@ -14712,7 +14680,6 @@
 "graybill",1
 "grayscalefriendly",1
 "greaterequal",1
-"greaterthan",1
 "grepl",1
 "greyscale",1
 "grf",1
@@ -15971,7 +15938,7 @@
 "lapsing",1
 "laptop",1
 "largedimensional",1
-"largerthanunit",1
+"largerunit",1
 "largesample",1
 "largesmaller",1
 "larry",1
@@ -16033,7 +16000,6 @@
 "leaveoneexampleout",1
 "leaveoneut",1
 "leavepout",1
-"leavesomeout",1
 "lebesgue",1
 "lecturesexamples",1
 "lee",1
@@ -16079,7 +16045,6 @@
 "levelcrossing",1
 "leveldesign",1
 "levellog",1
-"levelnot",1
 "levelreleveling",1
 "levelsgrouping",1
 "levelssubsets",1
@@ -16483,7 +16448,7 @@
 "mampms",1
 "managed",1
 "managementstatistical",1
-"managersany",1
+"managers",1
 "managment",1
 "mandelbrot",1
 "manifoldvalued",1
@@ -17078,7 +17043,6 @@
 "modeltechnique",1
 "modeltest",1
 "modelvariogram",1
-"modelwhich",1
 "moder",1
 "moderateextreme",1
 "moderationinteraction",1
@@ -17396,7 +17360,6 @@
 "necesarily",1
 "necessaryallowed",1
 "necessarysufficient",1
-"needbased",1
 "needle",1
 "needleinahaystack",1
 "neff",1
@@ -17452,7 +17415,6 @@
 "networkscnns",1
 "networkspatial",1
 "networksquot",1
-"networkusing",1
 "neumanns",1
 "neuralgas",1
 "neuralnetworks",1
@@ -17784,10 +17746,9 @@
 "normalityquot",1
 "normalizable",1
 "normalizaiton",1
-"normalizationcomparisonwhen",1
+"normalizationcomparison",1
 "normalizationmultiple",1
 "normalizationstandardization",1
-"normalizednot",1
 "normalizefeature",1
 "normalizetrue",1
 "normallyscaled",1
@@ -17805,14 +17766,9 @@
 "notches",1
 "notebookquot",1
 "notesmaterials",1
-"notestimating",1
 "notetaking",1
 "noteworthy",1
-"notfixed",1
 "notices",1
-"notleast",1
-"notquitebinomial",1
-"notyetdecayed",1
 "nought",1
 "nouns",1
 "noverlinexsdfracsmumusmusmuoverlinex",1
@@ -18962,8 +18918,6 @@
 "probitmodel",1
 "probits",1
 "probitsquot",1
-"problembig",1
-"problemspecific",1
 "problemssolutions",1
 "problemswinbugs",1
 "probs",1
@@ -19270,6 +19224,7 @@
 "quinlans",1
 "quintillion",1
 "quit",1
+"quitebinomial",1
 "quits",1
 "quitting",1
 "quizzes",1
@@ -19303,7 +19258,6 @@
 "quotanomalousquot",1
 "quotanova",1
 "quotanticorrelationquot",1
-"quotanyquot",1
 "quotapplied",1
 "quotapproach",1
 "quotapproximately",1
@@ -19621,7 +19575,6 @@
 "quotgeneralizedquot",1
 "quotgeneralquot",1
 "quotgetting",1
-"quotgiven",1
 "quotglmnetquot",1
 "quotgo",1
 "quotgold",1
@@ -19868,7 +19821,6 @@
 "quotnormalizedquot",1
 "quotnormally",1
 "quotnote",1
-"quotnotoverfittingquot",1
 "quotnuggetquot",1
 "quotnull",1
 "quotnumber",1
@@ -19896,7 +19848,6 @@
 "quotorthogonal",1
 "quotorthogonalityquot",1
 "quotorthogonalizequot",1
-"quotother",1
 "quotothersquot",1
 "quotoutliersonlyquot",1
 "quotoutofbagquot",1
@@ -19904,7 +19855,6 @@
 "quotoutquot",1
 "quotoverall",1
 "quotovercontrollingquot",1
-"quotoverfittingquot",1
 "quotoverlappingquot",1
 "quotoverquot",1
 "quotovertuningquot",1
@@ -19997,6 +19947,7 @@
 "quotqualityquot",1
 "quotquasibinomialquot",1
 "quotquizzesquot",1
+"quotquotgreater",1
 "quotquotmathematicallyquotquot",1
 "quotquotreturned",1
 "quotrabbit",1
@@ -20308,7 +20259,6 @@
 "quotweirdquot",1
 "quotwellknownquot",1
 "quotwellroundednessquot",1
-"quotwhen",1
 "quotwhole",1
 "quotwidquot",1
 "quotwill",1
@@ -20337,7 +20287,6 @@
 "quotyearsquot",1
 "quotyes",1
 "quotymathbbeyx",1
-"quotyou",1
 "quotytquot",1
 "quotz",1
 "quotzeroinflated",1
@@ -21548,7 +21497,7 @@
 "slutskyyule",1
 "smacof",1
 "smallergreater",1
-"smallerthanone",1
+"smallerone",1
 "smancova",1
 "smdp",1
 "smile",1
@@ -22003,7 +21952,6 @@
 "suboptimal",1
 "suboptimality",1
 "subpixel",1
-"subproblem",1
 "subproblems",1
 "subree",1
 "subregions",1
@@ -22392,9 +22340,6 @@
 "tgp",1
 "tgt",1
 "thanks",1
-"thanless",1
-"thanquot",1
-"thanquotquotgreater",1
 "theanets",1
 "theanoshared",1
 "theils",1
@@ -23333,10 +23278,8 @@
 "whatsoever",1
 "whe",1
 "wheither",1
-"whenwhere",1
 "whereby",1
 "wherefore",1
-"wherewhen",1
 "wheter",1
 "whist",1
 "whitehuber",1
@@ -23614,6 +23557,7 @@
 "yepsilon",1
 "yesnoabstain",1
 "yesterday",1
+"yetdecayed",1
 "yex",1
 "yexp",1
 "yexpbeta",1
